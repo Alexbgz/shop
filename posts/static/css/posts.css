@@ -1,0 +1,12 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter:   saturate(180%) blur(20px);
+}
